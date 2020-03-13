@@ -23,11 +23,12 @@ server.use(
   saveUninitialized: false, // GDPR laws against setting cookies automatically
   secret: process.env.COOKIE_SECRET || "secret", // cryptographically sign the cookie
   cookie: {
+   maxAge: 1000 * 60 * 10, // expire the cookie after 2 minutes
    httpOnly: true // disallow javascript from reading our cookie contents
-   // 	maxAge: 15 * 1000, // expire the cookie after 15 seconds
   },
   store: new KnexSessionStore({
-   knex: dbConfig, // configured instance of knex
+   knex: dbConfig,
+   clearInterval: 1000 * 60 * 5, //  delete expired sessions every five minutes
    createtable: true // if the session table doesn't exist, create it automatically
   })
  })
