@@ -1,0 +1,40 @@
+{
+  "name": "auth1-project",
+  "version": "1.0.0",
+  "description": "Node Auth 1 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisRDaniels/node-auth1-project.git"
+  },
+  "keywords": [
+    "node",
+    "auth",
+    "project"
+  ],
+  "author": "Chris Daniels",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisRDaniels/node-auth1-project/issues"
+  },
+  "homepage": "https://github.com/ChrisRDaniels/node-auth1-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-session-knex": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "helmet": "^3.21.3",
+    "knex": "^0.20.11",
+    "morgan": "^1.9.1",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
