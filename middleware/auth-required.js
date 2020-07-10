@@ -2,7 +2,7 @@ const Users = require("../users/users-model");
 const bcrypt = require("bcryptjs");
 
 module.exports = (req, res, next) => {
- if (req.session && req.session.username) {
+ if (req.session && req.session.user) {
   next();
  } else {
   res.status(401).json({ message: "You are not logged in." });
