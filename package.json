@@ -1,7 +1,7 @@
 {
-  "name": "auth1-project",
+  "name": "auth2-project",
   "version": "1.0.0",
-  "description": "Node Auth 1 project",
+  "description": "Node Auth 2 project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisRDaniels/node-auth1-project.git"
+    "url": "git+https://github.com/ChrisRDaniels/node-auth2-project.git"
   },
   "keywords": [
     "node",
@@ -19,9 +19,9 @@
   "author": "Chris Daniels",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ChrisRDaniels/node-auth1-project/issues"
+    "url": "https://github.com/ChrisRDaniels/node-auth2-project/issues"
   },
-  "homepage": "https://github.com/ChrisRDaniels/node-auth1-project#readme",
+  "homepage": "https://github.com/ChrisRDaniels/node-auth2-project#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "connect-session-knex": "^1.6.0",
